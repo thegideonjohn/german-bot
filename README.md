@@ -1,10 +1,10 @@
-🇩🇪 German Voice Tutor Bot
+# 🇩🇪 German Voice & Text Tutor Bot
 
 A Telegram bot powered by OpenAI that helps you practice German through natural voice conversation. Unlike standard text chatbots, this bot prioritizes listening and speaking skills.
 
 
 
-Features
+## Features
 
 🗣️ Voice-First Interaction: Chat naturally! The bot listens to your voice notes and understands you perfectly.
 
@@ -22,31 +22,31 @@ Features
 
 
 
-How It Works
+## How It Works
 
 The bot uses a powerful pipeline to simulate a real human tutor:
 
 
 
-Hearing (Whisper-1): Converts your Telegram voice note into text.
+‣ Hearing (Whisper-1): Converts your Telegram voice note into text.
 
 
 
-Thinking (GPT-4o): Analyzes your speech, checks for errors, and generates a helpful German response.
+‣ Thinking (GPT-4o): Analyzes your speech, checks for errors, and generates a helpful German response.
 
 
 
-Speaking (TTS-1): Converts the AI's text back into a high-quality German audio file.
+‣ Speaking (TTS-1): Converts the AI's text back into a high-quality German audio file.
 
 
 
-Delivery (Telegram): Sends the audio + a blurred text transcript back to you.
+‣ Delivery (Telegram): Sends the audio + a blurred text transcript back to you.
 
 
 
-Setup Instructions
+## Setup Instructions
 
-1\. Prerequisites
+### 1\. Prerequisites
 
 Python 3.10+ installed on your machine.
 
@@ -64,25 +64,34 @@ A Telegram Bot Token (from @BotFather).
 
 
 
-2\. Clone and Prepare
+### 2\. Clone and Prepare
 
-3\. Virtual Environment
+• bash git clone
+``` 
+[https://github.com/
+thegideonjohn/ german-bot. git](https:/ /
+github.com/thegideonjohn/german-bot.git)
+cd german-bot
+```
+
+
+### 3\. Virtual Environment
 
 It is best practice to use a virtual environment.
 
 
 
-4\. Install Dependencies
+### 4\. Install Dependencies
 
-5\. Configuration
+### 5\. Configuration
 
 Create a file named .env in the root folder and add your keys:
 
 
 
-6\. Run the Bot
+### 6\. Run the Bot
 
-Features in Detail
+## Features in Detail
 
 🗣️ Natural Conversation
 
@@ -104,9 +113,10 @@ Step 2: If you are stuck, tap the blurred text to reveal the written German and 
 
 
 
-File Structure
+## File Structure
 
-Troubleshooting
+
+## Troubleshooting
 
 Bot stops responding?
 
@@ -138,21 +148,21 @@ Check the .env file to ensure there are no spaces around the = sign.
 
 
 
-Future Enhancements
+## Future Enhancements
 
-\[ ] User profiles to remember your German level.
-
-
-
-\[ ] Vocabulary list generation (save new words to a file).
+‣  User profiles to remember your German level.
 
 
 
-\[ ] Daily conversation topic suggestions.
+‣  Vocabulary list generation (save new words to a file).
 
 
 
-License
+‣  Daily conversation topic suggestions.
+
+
+
+## License
 
 MIT License. Happy Learning! 🇩🇪 Viel Glück!
 
