@@ -68,8 +68,6 @@ A Telegram Bot Token (from @BotFather).
 ### 2\. Clone and Prepare
 
 ```
-bash
-
 git clone
 
 git clone https://github.com/thegideonjohn/german-bot.git
@@ -80,14 +78,15 @@ cd german-bot
 ### 3\. Virtual Environment
 
 It is best practice to use a virtual environment.
-```
-Bash
 
-# Windows
+```Windows```
+```
 python -m venv venv
 venv\Scripts\activate
+```
 
-# Mac/Linux
+```Mac/Linux```
+```
 python3 -m venv venv
 source venv/bin/activate
 ```
