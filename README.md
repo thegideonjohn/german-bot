@@ -46,6 +46,7 @@ The bot uses a powerful pipeline to simulate a real human tutor:
 
 ## Setup Instructions
 
+
 ### 1\. Prerequisites
 
 Python 3.10+ installed on your machine.
@@ -66,11 +67,12 @@ A Telegram Bot Token (from @BotFather).
 
 ### 2\. Clone and Prepare
 
-• bash git clone
-``` 
-[https://github.com/
-thegideonjohn/ german-bot. git](https:/ /
-github.com/thegideonjohn/german-bot.git)
+```
+bash
+
+git clone
+
+git clone https://github.com/thegideonjohn/german-bot.git
 cd german-bot
 ```
 
@@ -78,19 +80,36 @@ cd german-bot
 ### 3\. Virtual Environment
 
 It is best practice to use a virtual environment.
+```
+Bash
 
+# Windows
+python -m venv venv
+venv\Scripts\activate
 
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ### 4\. Install Dependencies
 
+```
+pip install -r requirements.txt
+```
 ### 5\. Configuration
 
 Create a file named .env in the root folder and add your keys:
 
-
-
+```
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+OPENAI_API_KEY=sk-your_openai_key_here
+``` 
 ### 6\. Run the Bot
 
+```
+python main.py
+```
 ## Features in Detail
 
 🗣️ Natural Conversation
@@ -114,6 +133,15 @@ Step 2: If you are stuck, tap the blurred text to reveal the written German and 
 
 
 ## File Structure
+```
+.
+├── main.py                # The brain of the bot (handles voice, API calls)
+├── requirements.txt       # List of Python libraries needed
+├── .env                   # Secrets (API Keys) - DO NOT SHARE THIS
+├── .gitignore             # Tells Git what to ignore
+├── README.md              # This documentation
+└── temp/                  # Temporary folder for processing audio files
+```
 
 
 ## Troubleshooting
